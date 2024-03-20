@@ -11,6 +11,11 @@ html{
     box-sizing: border-box;
     scroll-snap-type: y mandatory ;
 }
+.ico{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
 /* Scrool Snap*/
 .servicios,
 .navegacion-principal,
@@ -141,14 +146,27 @@ border: solid 1px;
 
 
 /* Hero */
+.foto{
+    width: 200px;
+    height: 200px;
+    background-color: var(--secundario);
+    border-radius: 50%;
+    background-image: url(../img/CG\ LOGO.PNG);
+    background-size: cover;
+   
+} 
+
+
+
 .hero{
-    background-image: url(../img/imagen.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
     position: relative;
-    margin-bottom: 2rem;  
+    margin-bottom: 2rem;
+    
 }
+
 .contenido-hero{
 position: absolute;
 background-color: rgb( 0 0 0 / 50% );
