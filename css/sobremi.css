@@ -1,0 +1,130 @@
+:root{
+    --blanco:#ffffff;
+    --oscuro: #000000;
+    --gris:#757575;
+    --secundario:#2d6feb;
+   
+}
+html{
+    box-sizing: border-box;
+    
+    
+}
+
+
+/* Scrool Snap*/
+
+*, *:before, *:after{  /* Hack para Box Model */
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Carlito", sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.navegacion-principal {
+    background-color: var(--oscuro);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    min-width: 400px;
+}
+
+.navegacion-principal a{
+    background-color: var(--oscuro);
+    color: var(--blanco);
+    text-decoration: none; 
+    text-align: center;
+    font-size: 1rem;
+    font: bold;
+  
+  
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+@media (min-width: 468px) {
+ .navegacion-principal{
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+ }
+}
+
+
+
+    .container{
+        background-color: var(--oscuro);
+        color: var(--blanco);
+        display: grid;
+        place-items: column;
+        height: 100rem;
+    }
+    @media (min-width: 768px) {
+        .container{
+            display: grid;
+            grid-template-columns: 50% 50%;
+           height: 100vh;
+        }
+    }
+
+
+
+
+.numerou{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+p{
+    font-size: 1rem;
+    text-align: center;
+    margin: 40px;
+}
+.numerod{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    background-color: var(--oscuro);
+    
+   
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+
+
+
+footer{
+    background-color: var(--oscuro);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem;
+}
+
