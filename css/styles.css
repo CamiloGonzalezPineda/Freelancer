@@ -123,7 +123,8 @@ background-color: var(--oscuro);
 
 .navegacion-principal {
     display: flex;
-    flex-direction:column ;
+    flex-direction:row ;
+    justify-content: center;
     background-color: transparent;
     backdrop-filter: blur(10px);
    
@@ -132,7 +133,7 @@ background-color: var(--oscuro);
     .navegacion-principal{
         flex-direction: row;
         justify-content: space-between;
-
+        
     }
  }
 
