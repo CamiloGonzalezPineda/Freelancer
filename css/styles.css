@@ -9,7 +9,6 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
-    
 }
 
 /* Scrool Snap*/
@@ -22,7 +21,8 @@ body{
     font-size: 16px;
     font-family: "Carlito", sans-serif;
     box-sizing: border-box;
-    background-color: var(--oscuro);
+    background-color: var(--oscuro)
+   
 }
 
 
@@ -30,15 +30,17 @@ body{
 .contenedor{
     max-width: 120rem;
     margin: 0 auto;
-  
-   
+
 }
+
+
+
 
 .boton{
     background-color: var(--secundario);
     color: var(--blanco);
     padding: 1rem 3rem;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
     font-size: 2rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -47,11 +49,15 @@ body{
     width: 70%;
     text-align: center;
     border: none;
+
+
 }
 
 @media (min-width: 768px) {
  .boton {
     width: auto;
+    margin-top: 4rem;
+
  }
 }
 .boton:hover{
@@ -66,6 +72,7 @@ body{
     border-radius: 4px;
     height: 100vh;
     background-color: var(--oscuro);
+
 }
 /* Tipografias */
 h1{
@@ -73,10 +80,8 @@ h1{
     font-size: 3.8rem;
 }
 h2{
-    margin-top: 1rem;
-    font-size: 4rem;
-    color: var(--blanco);
-
+    
+    font-size: 2.8rem;
   
 }
 h3{
@@ -113,13 +118,14 @@ justify-content: flex-end;
 
 /* Navegacion Principal*/
 .nav-bg{
-    background-color: var(--oscuro);
-
+background-color: var(--oscuro);
 }
 
 .navegacion-principal {
     display: flex;
     flex-direction:column ;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
    
  }
  @media (min-width: 768px) {
@@ -157,14 +163,12 @@ a:hover{
     display: flex;
     justify-content: center;
     justify-items: center;
-   
 }
 .foto{
     width: 200px;
     height: 200px;
-    background-color: var(--oscuro);
+    background-color: var(--blanco);
     border-radius: 50%;
-    background-image: url(../img/CG\ LOGO.PNG);
     background-size: cover;
 
     
@@ -172,15 +176,12 @@ a:hover{
 } 
 
 
-
 .hero{
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 400px;
     position: relative;
     margin-bottom: 2rem;
     height: 100vh;
-    
+    background-color: var(--oscuro);
     margin: 0;
     
     
@@ -188,7 +189,6 @@ a:hover{
 
 .contenido-hero{
 position: absolute;
-background-color: var(--oscuro);
 width: 100%;
 height: 60%;
 display: flex;
@@ -208,9 +208,9 @@ color: var(--blanco);
 .contenido-hero .ubicacion{
     display: flex;
     align-items: flex-end;
-    height: 100%;
-
+    margin: auto;
 }
+
 
 /* Servicios*/
 @media (min-width: 768px) {
@@ -231,7 +231,7 @@ color: var(--blanco);
     flex-direction: column;
     align-items: center;
     margin: 0;
-  
+  background-color: var(--oscuro);
 
 }
 
@@ -258,6 +258,8 @@ color: var(--blanco);
 }
 
 /* Contacto */
+
+
 .formulario {
     background-color: var(--blanco);
     width: min( 60rem, 100% ); /** Utilizar el valor mÃ¡s pequeÃ±o **/
@@ -265,7 +267,7 @@ color: var(--blanco);
     padding: 2rem;
     border-radius: 1rem;
    
-
+  
 }
 
 .formulario fieldset{
@@ -281,6 +283,7 @@ color: var(--blanco);
     margin-bottom: 2rem;
     color: var(--oscuro);
     
+    
 } 
 @media (min-width: 768px) {
     .contenedor-inputs{
@@ -288,7 +291,6 @@ color: var(--blanco);
         grid-template-columns: 50% 50%;
         grid-template-rows: auto auto 20rem;
         column-gap: 1rem ;
-
          
        }
        .campo:nth-child(3),
@@ -299,6 +301,7 @@ color: var(--blanco);
 
 .campo{
     margin-bottom: 1rem;
+    
 }
 .campo label{
     color: var(--blanco);
@@ -315,6 +318,7 @@ border: none;
 padding: 1.5rem;
 border-radius: 4px;
 border: solid 2px ;
+
 }
 
 /* Footer*/

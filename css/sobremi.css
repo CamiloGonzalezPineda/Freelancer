@@ -6,9 +6,8 @@
    
 }
 html{
+    font-size: 62.5%;
     box-sizing: border-box;
-    
-    
 }
 
 
@@ -36,12 +35,15 @@ body{
 }
 
 .navegacion-principal a{
-    background-color: var(--oscuro);
-    color: var(--blanco);
-    text-decoration: none; 
+    height: 40px;
+    display: block;
     text-align: center;
-    font-size: 1rem;
-    font: bold;
+    color: var(--blanco);
+   text-decoration : none;
+   font-size: 2rem;
+   font-weight:bold;
+   padding: 1rem;
+   margin-bottom: 2px;
   
   
 }
@@ -90,11 +92,11 @@ a:hover{
 
 
 h1{
-    font-size: 5rem;
+    font-size: 9rem;
     text-align: center;
 }
 p{
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
     margin: 40px;
 }
