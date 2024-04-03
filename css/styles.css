@@ -50,7 +50,21 @@ body{
     text-align: center;
     border: none;
 
-
+}
+.buton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 70%;
+    text-align: center;
+    border: none;
+  
 }
 
 @media (min-width: 768px) {
@@ -61,6 +75,16 @@ body{
  }
 }
 .boton:hover{
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+ .buton {
+    width: auto;
+    margin-top: 4rem;
+
+ }
+}
+.buton:hover{
   cursor: pointer;
 }
 .sombra{
@@ -79,11 +103,18 @@ h1{
    
     font-size: 3.8rem;
 }
+
 h2{
-    
-    font-size: 2.8rem;
-  
+    font-size: 2rem;
+    color: var(--blanco); 
 }
+
+   @media (min-width:768px) {
+    h2{font-size: 7rem;
+   }
+   }
+
+
 h3{
     font-size: 1.8rem;
 }
@@ -178,14 +209,20 @@ a:hover{
 
 
 .hero{
-    height: 400px;
     position: relative;
     margin-bottom: 2rem;
     height: 100vh;
     background-color: var(--oscuro);
-    margin: 0;
-    
-    
+    margin: 0;    
+}
+
+@media (max-width:480px) {
+ .hero{
+height:32rem; }
+}
+
+@media (min-width: 768px) {
+ .hero{height:40rem;}
 }
 
 .contenido-hero{
@@ -208,8 +245,10 @@ color: var(--blanco);
 
 .contenido-hero .ubicacion{
     display: flex;
+    flex-direction: column;
     align-items: flex-end;
     margin: auto;
+    margin-top: 5rem;
 }
 
 
@@ -305,7 +344,7 @@ color: var(--blanco);
     
 }
 .campo label{
-    color: var(--blanco);
+    color: var(--oscuro);
     font-weight: bold;
     margin-bottom:.5rem;
     display: block;
