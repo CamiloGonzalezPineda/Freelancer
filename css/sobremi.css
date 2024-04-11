@@ -49,7 +49,7 @@ body{
   
 }
 
-a:hover{
+.diri:hover{
     text-decoration:underline;
 }
 
@@ -66,29 +66,59 @@ a:hover{
 
 
     .container{
-        background-color: var(--oscuro);
+        background-color: var(--blanco);
         color: var(--blanco);
         display: grid;
         place-items: column;
-        height: 100rem;
+        height: 100vh;
     }
     @media (min-width: 768px) {
         .container{
             display: grid;
             grid-template-columns: 50% 50%;
-           height: 100vh;
+           height: 50rem;
         }
     }
 
 
-
-
+.bite{
+    width: 200px;
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.bite:hover{
+    background-color: var(--blanco);
+    color: var(--oscuro);
+}
+.bete{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
 .numerou{
-    height:100%;
     display: flex;
     justify-content: center;
     justify-items: center;
     flex-direction: column;
+    background-color:var(--oscuro);
+}
+
+@media (min-width:768px) {
+    .numerou{
+        height: 50rem;
+       
+      
+    }
 }
 
 
@@ -96,21 +126,35 @@ h1{
     font-size: 9rem;
     text-align: center;
 }
+
 p{
     font-size: 2rem;
     text-align: center;
     margin: 40px;
 }
 .numerod{
-    height:100%;
     display: flex;
     justify-content: center;
     justify-items: center;
-    flex-direction: column;
+    flex-direction: column; 
     background-color: var(--oscuro);
-    
-   
 }
+
+
+@media (min-width:768px) {
+    .numerou{
+        height: 50rem;
+       
+      
+    }
+}
+
+
+@media (max-width: 430px) {
+    .numerod{
+       height: 50rem;
+    }
+   }
 
 
 .icons{
@@ -125,9 +169,12 @@ p{
 
 
 footer{
+    
+    text-align: center;
     background-color: var(--oscuro);
     color: var(--blanco);
-    text-align: center;
-    padding: 1rem;
+    padding: 12rem;
+ 
 }
+
 
