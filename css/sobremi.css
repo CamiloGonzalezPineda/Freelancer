@@ -166,7 +166,22 @@ p{
 }
 
 
-
+.iconsd{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50%;
+    gap: 40px;
+}
+.inst:hover{
+stroke: #f928c2;
+}
+.whatsa:hover{
+stroke: #1af70a;
+}
+.linkd:hover{
+stroke: var(--secundario);
+}
 
 footer{
     
