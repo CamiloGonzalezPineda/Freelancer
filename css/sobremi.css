@@ -123,8 +123,18 @@ body{
 
 
 h1{
-    font-size: 9rem;
+    font-size: 2rem;
     text-align: center;
+    display: flex;
+   margin-left: 20%;
+   margin-bottom:0 ;
+   color:rgb(50, 190, 255);
+}
+
+@media (max-width: 468px) {
+ h1{
+margin-left: 12%;
+ }
 }
 
 p{
@@ -132,11 +142,17 @@ p{
     text-align: center;
     margin: 40px;
 }
+.subt{
+    font-size: 6rem;
+    text-align: center;
+    margin: 40px;
+   color: var(--blanco);
+    margin-top: 0 ;
+}
 .numerod{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    flex-direction: column; 
+    display:flex;
+    justify-content:center;
+    align-items: center;
     background-color: var(--oscuro);
 }
 
@@ -161,18 +177,25 @@ p{
     display: flex;
     justify-content: center;
     justify-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
     gap: 40px;
 }
 
-
-.iconsd{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 50%;
-    gap: 40px;
+.ing{
+    width: 50%;
+    height: 75%;
+    border-radius: 50%;
+   
 }
+
+@media (max-width: 468px) {
+ .ing{
+    width: 60%;
+    height: 75%;
+ }
+}
+
+
 .inst:hover{
 stroke: #f928c2;
 }
@@ -181,6 +204,9 @@ stroke: #1af70a;
 }
 .linkd:hover{
 stroke: var(--secundario);
+}
+.git:hover{
+stroke:#0958ec ;
 }
 
 footer{
