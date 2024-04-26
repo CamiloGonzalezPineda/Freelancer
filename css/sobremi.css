@@ -45,6 +45,7 @@ body{
    font-weight:bold;
    padding: 1rem;
    margin-bottom: 2px;
+   white-space: nowrap;
   
   
 }
@@ -210,12 +211,13 @@ stroke: var(--secundario);
 stroke:#0958ec ;
 }
 
-footer{
-    
+.fote{
     text-align: center;
     background-color: var(--oscuro);
     color: var(--blanco);
+    height: auto;
     padding: 12rem;
+
  
 }
 

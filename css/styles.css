@@ -21,7 +21,7 @@ body{
     font-size: 16px;
     font-family: "Carlito", sans-serif;
     box-sizing: border-box;
-    background-color: var(--oscuro);
+    background-color: var(--blanco);
     
     
    
@@ -101,6 +101,11 @@ body{
 
 }
 /* Tipografias */
+
+.subt{
+    color: black;
+}
+
 h1{
    
     font-size: 3.8rem;
@@ -108,7 +113,7 @@ h1{
 
 h2{
     font-size: 2rem;
-    color: var(--blanco); 
+  
 }
 
    @media (min-width:768px) {
@@ -151,7 +156,7 @@ justify-content: flex-end;
 
 /* Navegacion Principal*/
 .nav-bg{
-background-color: var(--oscuro);
+background-color: #E3E3DB ;
 }
 
 .navegacion-principal {
@@ -214,13 +219,13 @@ a:hover{
     position: relative;
     margin-bottom: 2rem;
     height: 100vh;
-    background-color: var(--oscuro);
+    background-color: var(--blanco);
     margin: 0;    
 }
 
 @media (min-width: 768px) {
     .hero{
-       height:54rem;
+       height:10rem;
    }
    }
 @media (max-width: 768px) {
@@ -251,7 +256,7 @@ justify-content: center;
 
 .contenido-hero h2,
 .contenido-hero p{
-color: var(--blanco);
+color: var(--oscuro);
 }
 
 .contenido-hero .ubicacion{
@@ -375,9 +380,77 @@ border: solid 2px ;
 /* Footer*/
 footer{
     text-align: center;
-    background-color: var(--oscuro);
-    color: var(--blanco);
+    background-color:#D9D8D2;
+    color: var(--oscuro);
     height: auto;
-    padding: 5rem;
+    padding: 1rem;
  
+}
+
+
+/*Carrusel*/
+
+
+.carrusel{
+    background-image: url(/img/room.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-size: cover;
+    height: 75rem;
+}
+
+
+
+.caruUno{
+    margin: 20px 20px;
+    width: 220px;
+    height: 220px;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(121, 120, 120);
+
+    
+
+}
+
+.tit{
+    font-size: 20px;
+    display: flex;
+    left: 0%;
+    margin: 10px;
+}
+h4{
+    left: 0%;
+    margin: 10px;
+}
+
+.flecha{
+  margin-top: 7.5%;
+}
+.flechaa{
+  margin-top: 7.5%;
+}
+
+@media (max-width: 480px) {
+
+   .caruUno{
+    width: 200px;
+    height: 170px;
+   }
+    .flecha{
+      margin-top: 20%;
+    }
+    .flechaa{
+      margin-top: 20%;
+    }
+
+    .caruUno:nth-child(3),
+    .caruUno:nth-child(4)
+{
+    display: none;
+    
+}
+
 }
