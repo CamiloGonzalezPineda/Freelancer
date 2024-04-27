@@ -390,6 +390,18 @@ footer{
 
 /*Carrusel*/
 
+ 
+.carul{
+    width: 52%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+   
+}
+
 
 .carrusel{
     background-image: url(/img/room.jpg);
@@ -397,8 +409,9 @@ footer{
     display: flex;
     justify-content: center;
     position: relative;
-    background-size: cover;
+    background-size:cover;
     height: 75rem;
+ 
 }
 
 
