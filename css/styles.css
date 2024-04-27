@@ -390,7 +390,8 @@ footer{
 
 /*Carrusel*/
 
- 
+
+
 .carul{
     width: 52%;
     height: 250px;
@@ -401,18 +402,21 @@ footer{
     flex-direction: column-reverse;
    
 }
-
+ 
 
 .carrusel{
+    width: 100%;
     background-image: url(/img/room.jpg);
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    position: relative;
+    background-position: center;
     background-size:cover;
+    background-repeat: no-repeat;
     height: 75rem;
  
 }
+
 
 
 
@@ -446,11 +450,13 @@ h4{
   margin-top: 7.5%;
 }
 
+
 @media (max-width: 480px) {
 
+
    .caruUno{
-    width: 200px;
-    height: 170px;
+    width: 220px;
+    height: 220px;
    }
     .flecha{
       margin-top: 20%;
@@ -459,11 +465,7 @@ h4{
       margin-top: 20%;
     }
 
-    .caruUno:nth-child(3),
-    .caruUno:nth-child(4)
-{
-    display: none;
-    
-}
+
+
 
 }
