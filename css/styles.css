@@ -310,7 +310,6 @@ color: var(--oscuro);
     justify-content: space-evenly;
     align-items: center;
    
-   
 }
 
 /* Contacto */
@@ -406,7 +405,7 @@ footer{
 
 .carrusel{
     width: 100%;
-    background-color: var(--blanco);
+    background-color: var(--oscuro);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -417,17 +416,19 @@ footer{
 
 
 
+
 .caruUno{
     margin: 20px 20px;
     width: 440px;
     height: 400px;
     background-color:white;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px rgb(121, 120, 120);
-
-    
+    box-shadow: 0px 0px 20px rgb(121, 120, 120);  
 
 }
+.caruUno:hover{
+    transition: transform 1s;
+   transform:scale(1.1);}
 
 .tit{
     font-size: 20px;
@@ -450,8 +451,8 @@ h4{
     
     }
    .caruUno{
-   width: 340px;
-   height: 510px; 
+   width: 320px;
+   height: 410px; 
    }
 .carrusel{
     height: 82rem;
