@@ -48,7 +48,7 @@ body{
     }
 }
 @media (max-width:480px ) {
- .gra{font-size: 6rem;}
+ .gra{font-size: 5rem;}
 }
 .navegacion-principal {
    width: 100%;
